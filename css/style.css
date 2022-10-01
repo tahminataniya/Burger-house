@@ -1,0 +1,467 @@
+/*commoncode start*/
+/*commoncode end*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3d2514;
+}
+/*header satrt*/
+header{
+    padding: 20px 0 50px 0;
+    background-image: url(../images/header-bcg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+/*head*/
+.container{
+    margin: 0 auto;
+    width: 90%;
+    /*border: 1px solid black;*/
+    overflow: hidden;
+}
+.h_head{}
+.logo{
+    width: 20%;
+    /*border: 1px solid red;*/
+    float: left;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width: 40%;
+   /* border: 1px solid red;*/
+    float: right;
+}
+.menu ul{
+        float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    margin: 0 25px 0;
+    color:#3d2514;
+    text-decoration: none;
+    cursor: pointer;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    transition: .33s;
+
+   
+}
+.menu ul li a:hover{
+    color:#3d2514;
+    border-top: 1px solid #3d2514;
+    border-bottom: 1px solid #3d2514;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+/*body*/
+.h_body{}
+.b_content{
+    margin: 130px 0 200px;
+}
+.b_content p{
+    margin: 0;
+    padding: 8px 15px;
+    width: 345px;
+    font-size: 22px;
+    line-height: 20px;
+    border: 1px dashed #3b2514;
+ 
+}
+.b_img{
+   width: 38%;
+   background-color: transparent;
+}
+.b_img img{
+    width: 100%;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    padding: 50px 0 50px 0;
+}
+.b_wrapper{
+    /*border: 1px solid red;*/
+    overflow: hidden;
+}
+.banner_left{
+    width: 48%;
+   /* border: 1px solid black;*/
+    float: left;
+
+}
+.left_content{
+    background-image: url(../images/burger1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 420px;
+    border: none;
+    border-radius: 10px;
+}
+.left_p{
+    margin: 0;
+    padding: 25px 30px 5px;
+    font-size: 24px;
+    color: #ffffff;
+}
+.left_h2{
+    margin: 0;
+    padding: 0 30px 0;
+    font-size: 40px;
+    font-weight: 410;
+    line-height: 35px;
+    color: white;
+
+}
+.banner_right{
+    width: 48%;
+   /* border: 1px solid black;*/
+    float: right;
+
+}
+
+.right_top{
+    background-image: url(../images/burger2.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+    min-height: 190px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.right_bottom{
+    background-image: url(../images/burger3.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+    min-height: 200px;
+    border: none;
+    border-radius: 10px;
+}
+/*banner end*/
+/*feature start*/
+.feature{}
+.f_wrapper{
+    margin: 0 auto;
+    padding: 0 25px 0;
+    text-align: center;
+}
+.f_pera{
+    margin: 0 auto;
+    padding: 5px 30px 5px;
+    width: 15%;
+    font-size: 25px;
+    background-color: #ffc045;
+}
+h1{
+    margin: 15px 0 10px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 45px;
+    font-weight: 400;
+    
+    
+}
+.p_content{
+     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 25px;
+
+}
+/*feature end*/
+/*order list start*/
+.order_list{
+       padding: 50px 0 50px 0;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 95%;
+    /*border: 1px solid black;*/
+    overflow: hidden;
+}
+.li_wrapper{}
+.s_list{
+    width: 27%;
+    margin-right: 9%;
+    float: left;
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+.s_list:last-child{
+    margin-right: 0;
+    float: right;
+}
+
+.s_img{
+        margin-bottom: 10px;
+}
+.s_img img{
+    width: 100%;
+}
+.s_h2{
+    margin: 0;
+    font-size: 37px;
+    font-weight: 400;
+}
+.list{
+    margin: 15px 0 25px;
+}
+
+.button{}
+button{
+    padding: 14px 0px 19px;
+    width: 55%;
+    min-height: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    transition: .33s;
+    border: 1px solid red;
+
+
+}
+button:hover{
+    color: #3d2514;
+}
+/*order list end*/
+/*discover start*/
+.discover{
+    padding: 50px 0 30px;
+    background-color:#f2f2f2;
+}
+.wrapper2{
+    margin: 0 auto;
+    width: 90%;
+    background-color: white;
+}
+.d_wrapper{
+    margin: 15px auto;
+    padding: 20px 12px 15px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 6px 6px 13px 6px #dbdbdb;
+}
+.d_left{
+    margin: 3%;
+    width: 47%;
+    float: left;
+}
+.d_pera{
+    margin: 0;
+    font-size: 29px;
+}
+.d_h2{
+    margin: 0;
+    font-family: 'Alfa Slab One';
+    font-weight: 400;
+    font-size: 30px;
+}
+.d_p2{
+    margin: 0;
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 25px;
+}
+.d_right{
+    width: 45%;
+    float: right;
+}
+.d_img{
+
+}
+.d_img img{
+    width: 100%;
+}
+
+/*discover end*/
+/*table start*/
+.table{
+    padding: 50px 0 50px;
+    position: relative;
+    background-color:#ffffff;
+}
+.table_box{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+    background-color: white;
+}
+.t_form{
+    padding: 50px 0 100px;
+}
+.t_form input{
+    margin-top: 20px;
+    padding: 15px 5px;
+    width: 46%;
+    font-family:'Bebas Neue', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3d2514;
+    border-radius: 5px;
+}
+.t_form input:nth-child(odd){
+    margin-right: 3%;
+}
+
+.t_button{
+    padding: 0;
+    display: inline-block;
+    width: 48%;
+    border-radius: 5px;
+
+    
+}
+.burger{
+    position:absolute ;
+    top: 0px;
+    left: -51px;
+}
+.burger img{
+    width: 100%;
+}
+.bottel{
+    position:absolute ;
+    top: 168px;
+    left: 204px;
+}
+.bottel img{
+     width: 100%;
+}
+.plate{
+     position:absolute ;
+     top: 125px;
+     right: -170px;
+}
+.plate img{ 
+    width: 100%;
+}
+/*table end*/
+/*footer start*/
+footer{}
+.footer_wrapper{
+    padding-left: 30px;
+     background-image: url(../images/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer_head{
+    padding: 80px 0 100px;
+    overflow: hidden;
+}
+.h_left{
+    width: 35%;
+    float: left;
+    text-align: left;
+}
+.f_logo{
+   width: 50%;
+}
+.f_logo img{
+    width: 100%;
+}
+.f_font{
+    font-size: 14px;
+    color: white;
+    word-spacing: 0px;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+.h_right{
+     margin: 90px 0px 0px;
+     width: 30%;
+    float: right;
+   
+}
+.location{
+        overflow: hidden;
+}
+.l_icon{
+   float: left;
+   
+}
+.l_icon img{
+   width: 100%;
+}
+.location p{
+    margin: 10px 15px 0px;
+    float: left;
+    font-size: 18px;
+    color: white;
+}
+.gmail{
+   overflow: hidden;
+}
+.g_icon{
+    float: left;
+}
+.g_icon img{
+    width: 100%;
+}
+.gmail p{
+    margin:6px 15px 0;
+    float: left;
+    font-size: 18px;
+    color: white;
+}
+
+.footer_foot{
+     overflow: hidden;
+      
+}
+.f_left{
+    padding: 20px 0;
+    width: 40%;
+    float: left;
+}
+.f_left p{
+    margin:0;
+    font-size: 14px;
+    color: white;
+}
+
+.f_menu{
+     width: 18%;
+    float: right;
+}
+.f_menu ul{}
+.f_menu ul li{
+        list-style: none;
+}
+.f_menu ul li a{
+    float: left;
+    margin-right: 13px;
+}
+.f_menu ul li a img{
+    width: 100%;
+}
+
+
+
+
+
+/*footer end*/
